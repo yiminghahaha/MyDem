@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="手机号"
+        android:id="@+id/main2_et1" />
+    <EditText
+        android:layout_below="@+id/main2_et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="确认手机号"
+        android:id="@+id/main2_et2" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/main2_et2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="35dp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recy"
+        android:layout_below="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+    </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_below="@+id/recy"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main2_bt1"
+            android:text="取消"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/recy"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main2_bt2"
+            android:text="确认兑换"/>
+
+
+</RelativeLayout>

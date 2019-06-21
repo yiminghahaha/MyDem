@@ -1,0 +1,1 @@
+include  ':myview',':projectname', ':mytre', ':appdemo1', ':mywork', ':application'

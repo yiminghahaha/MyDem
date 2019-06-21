@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--declare-styleable name 声明标签内的所有属性,可以CircleProgress用-->
+    <declare-styleable name="CircleProgress">
+        <attr name="ring_color" format="color|reference"/>
+        <attr name="ring_width" format="dimension"/>
+        <attr name="circle_radius" format="dimension"/>
+        <attr name="circle_color" format="color"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="startAngle" format="float"/>
+        <attr name="sweepAngle" format="float"/>
+    </declare-styleable>
+
+</resources>

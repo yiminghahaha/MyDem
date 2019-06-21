@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/n1"
+        android:title="@string/zhihubok"
+        android:icon="@mipmap/ic_drawer_zhihu"/>
+    <item
+        android:id="@+id/n2"
+        android:title="@string/weichar"
+        android:icon="@mipmap/ic_drawer_wechat"/>
+    <item
+        android:id="@+id/n3"
+        android:title="@string/gank"
+        android:icon="@mipmap/ic_drawer_gank"/>
+    <item
+        android:id="@+id/n4"
+        android:title="@string/glod"
+        android:icon="@mipmap/ic_drawer_gold"/>
+    <item
+        android:id="@+id/n5"
+        android:title="@string/V2EX"
+        android:icon="@mipmap/ic_drawer_vtex"/>
+
+    <group>
+        <item
+            android:id="@+id/g1"
+            android:title="选项">
+        </item>
+    </group>
+
+    <item
+        android:id="@+id/n6"
+        android:title="@string/collect"
+        android:icon="@mipmap/ic_drawer_like"/>
+    <item
+        android:id="@+id/n7"
+        android:title="@string/setting"
+        android:icon="@mipmap/ic_drawer_setting"/>
+    <item
+        android:id="@+id/n8"
+        android:title="@string/abslout"
+        android:icon="@mipmap/ic_drawer_about"/>
+</menu>

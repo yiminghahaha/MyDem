@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ProjectName</string>
+    <string name="zhihubok">知乎日报</string>
+    <string name="weichar">微信精选</string>
+    <string name="gank">干货集中营</string>
+    <string name="glod">稀土掘金</string>
+    <string name="V2EX">V2EX</string>
+    <string name="setting">设置</string>
+    <string name="abslout">关于</string>
+    <string name="collect">收藏</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
